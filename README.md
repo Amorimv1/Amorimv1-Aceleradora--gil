@@ -1,6 +1,10 @@
 ﻿# Amorimv1-Aceleradora-Ágil
 Fiz esse Layout para o desafio que recebi ao participar do processo seletivo do Programa Aceleradora Ágil.
  ![image](https://github.com/Amorimv1/Amorimv1-Aceleradora-Agil/assets/143672307/84156fcc-2cdb-43ae-b639-6178425cefd3)
+
+ ![image](https://github.com/Amorimv1/Amorimv1-Aceleradora-Agil/assets/143672307/40cbca3b-17a1-465a-b8e4-5cb818decce9)
+
+--Para adicionar uma tarefa, basta digitar a tarefa na caixa de texto e clicar no botão "Adicionar Tarefa". E para remover uma tarefa adicionada basta apernar no botão "X".
  
 📝 Sobre o Desafio- Descrição
 Crie um layout de largura e altura variável de acordo com o conteúdo da página, dividido em duas regiões distintas (menu esquerdo e conteúdo principal), siga as instruções abaixo:
