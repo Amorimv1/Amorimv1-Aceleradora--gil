@@ -19,10 +19,13 @@ Crie uma formatação para esse menu.
 Na área principal, crie um título chamado "Lista de tarefas" e adicione uma tabela Dia e Noite lado a lado. Em cada tabela, crie uma lista ordenada com tarefas genéricas a serem feitas durante uma rotina.
 
 Desafio
+
 ● Para aprimorar a experiência do usuário, aplique um estilo personalizado ao layout, tornando-o mais agradável e intuitivo. ● Deixe a lista de tarefas dinâmica com as funcionalidades de adição e remoção de tarefas.
 
-Funcionalidades do Projeto
+Funcionalidades do Projeto:
+
 Funcionalidade 1: Adicionar tarefas.
+
 Funcionalidade 2: Remover tarefas.
 
 🚀 Começando
