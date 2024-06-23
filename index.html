@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="menu">
+        <img src="5804add3-d24d-4800-98f5-1d3ee86ed3de.jpg" alt="Foto do Gabriel">
+        <h2>Gabriel amorim</h2>
+        <p>Olá! Sou Luis Gabriel, estudante de Análise e Desenvolvimento de Sistemas no SENAC PE, apaixonado pelo mundo da tecnologia. Estou em constante busca por conhecimento e novas oportunidades para aplicar minhas habilidades em programação e análise de sistemas. Estou pronto para contribuir com minha energia e entusiasmo em projetos inovadores. Vamos conectar e construir juntos o futuro da tecnologia!</p>
+        <ul>
+            <li><a  href="https://www.linkedin.com/in/amorimv4/" 
+                title="Ir para o LinkedIn" 
+                target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            
+            <li><a href="https://wa.me/5581997072234" 
+                title="Enviar Mensagem no WhatsApp" 
+                target="_blank"
+                >
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            </li>
+
+            <li><a href="https://github.com/Amorimv1" 
+                title="Ir para o Github" 
+                target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            </li>
+
+            <li><a  href="https://www.instagram.com/amorimv4?igsh=d204dG41cHpwNW4y" 
+                title="Ir para o Instagram"
+                target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            </li>
+        </ul>
+    </div>
+    <div id="main">
+        <h1>Lista de tarefas</h1>
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Noite</th>
+            </tr>
+            <tr>
+                <td>
+                    <ol id="dayTasks">
+                        <li>Acordar</li>
+                        <li>Dobrar o lençol</li>
+                        <li>Arrumar a cama</li>
+                        <li>Lavar o rosto</li>
+                        <li>Tomar um café</li>
+                    </ol>
+                    <input type="text" id="dayTaskInput">
+                    <button onclick="addTask('day')">Adicionar tarefa</button>
+                </td>
+                <td>
+                    <ol id="nightTasks">
+                        <li>Ir para Faculdade</li>
+                        <li>Estudar</li>
+                        <li>Chegar da Faculdade</li>
+                        <li>Jantar</li>
+                        <li>Ler algo</li>
+                    </ol>
+                    <input type="text" id="nightTaskInput">
+                    <button onclick="addTask('night')">Adicionar tarefa</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

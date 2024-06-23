@@ -1,0 +1,136 @@
+/* Define as configurações básicas do corpo */
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Define a barra lateral (menu) */
+#menu {
+    width: 20%;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza a imagem de perfil */
+#menu img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Remove os estilos de lista padrão e define o menu */
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estiliza os links do menu */
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+/* Estiliza os ícones do menu */
+#menu ul li a i {
+    margin-right: 10px;
+}
+
+/* Muda a cor dos links ao passar o mouse */
+#menu ul li a:hover {
+    color: #1abc9c;
+}
+
+/* Define a área principal */
+#main {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Define a tabela de tarefas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Define o estilo das células da tabela */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+/* Define o cabeçalho da tabela */
+th {
+    background-color: #1abc9c;
+    color: white;
+}
+
+/* Define as tarefas */
+td ol {
+    padding-left: 20px;
+}
+
+td ol li {
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+td input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+td button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+td button:hover {
+    background-color: #16a085;
+}
+
+/* Estilo para o botão de remoção */
+.remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px; /* Espaçamento entre a tarefa e o botão */
+    padding: 5px 10px; /* Tamanho do botão */
+}
+
+.remove-button:hover {
+    background-color: darkred;
+}
