@@ -11,7 +11,8 @@ No menu esquerdo, coloque uma imagem de um ícone padrão, um Nome genérico aba
 
 Para criar uma formatação para o menu esquerdo com os 4 links, utilize a estrutura abaixo:
 
-Captura de tela 2023-09-09 114631
+![image](https://github.com/Amorimv1/Amorimv1-Aceleradora-Agil/assets/143672307/ae9976ea-b63f-4d97-a359-21cd868edd77)
+
 
 Crie uma formatação para esse menu.
 
